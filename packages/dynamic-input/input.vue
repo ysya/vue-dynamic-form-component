@@ -15,7 +15,7 @@
     <el-option v-for="option in _options" :key="option.label" :value="option.value" :label="option.label" :disabled="option.disabled"></el-option>
   </el-select>
   <!-- date type use el-date-picker -->
-  <el-date-picker v-else-if="type === 'date'" class="dynamic-input" v-model="_value" :size="size" :disabled="disabled" type="datetime" :placeholder="placeholder"></el-date-picker>
+  <el-date-picker v-else-if="type === 'date'" class="dynamic-input" v-model="_value" :size="size" :disabled="disabled" type="datetime" :value-format="value_format" :placeholder="placeholder"></el-date-picker>
 </template>
 
 <script>
@@ -39,6 +39,7 @@ export default {
     },
     disabled: Boolean,
     placeholder: String,
+    value_format: String,
     size: {
       type: String,
       default: 'small'
