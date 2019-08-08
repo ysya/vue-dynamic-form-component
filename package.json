@@ -1,6 +1,6 @@
 {
   "name": "vue-dynamic-form-component",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "license": "MIT",
   "author": {
     "email": "mail@quincychen.cn",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "github",
-    "url": "https://github.com/chenquincy/vue-dynamic-form-component"
+    "url": "https://github.com/ysya/vue-dynamic-form-component"
   },
   "scripts": {
     "dev": "vue-cli-service serve",
