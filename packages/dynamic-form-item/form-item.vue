@@ -120,6 +120,7 @@ export default {
       default: ''
     },
     label: String,
+    value_format: String,
     /**
      * descriptor of value, extend from https://github.com/yiminghe/async-validator
      */
