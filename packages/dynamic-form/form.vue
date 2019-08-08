@@ -39,7 +39,7 @@ export default {
     },
     lang: {
       type: String,
-      default: 'zh_CN'
+      default: 'zh_TW'
     },
     /**
      * custom languages, format refer to packages/i18n.js
