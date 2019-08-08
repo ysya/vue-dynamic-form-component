@@ -33,6 +33,11 @@ export default {
           addKeyPlaceholder: 'just for test',
           addKeyButtonText: 'Add',
           addArrayItemButtonText: 'Add'
+        },
+        zh_TW: {
+          addKeyPlaceholder: '輸入想增加的名稱',
+          addKeyButtonText: '增加',
+          addArrayItemButtonText: '增加'
         }
       }
     }
