@@ -59,7 +59,6 @@ export default {
       type: String,
       default: 'small'
     },
-    value_format: String,
     /**
      * background-color of form
      */
